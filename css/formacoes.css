@@ -1,0 +1,195 @@
+.secao__cursos-container {
+    width: 76%;
+    margin: 40px auto;
+}
+
+.secao__cursos-titulo {
+    color: #747c81;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.secao__conteudo-escola--titulo {
+    display: flex;
+    width: 370px;
+}
+
+.secao__escolas-titulo {
+    background-color: #c5d2dc;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1vw;
+    width: 100%;
+}
+
+.secao__formacoes-titulo {
+    background-color: #c5d2dc;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1vw;
+    margin-left: 1rem;
+    width: 100%;
+}
+
+.secao__conteudo-titulos {
+    display: flex;   
+}
+
+.secao__titulo {
+    padding: 8px 30px;
+    font-size: 14px;
+}
+
+.secao__conteudo {
+    margin-top: 3.5vh;
+    display: flex;
+}
+
+.secao__container-navegacao--formacoes {
+    position: relative;
+    width: 74%;
+    height: 100%;
+    margin-left: 1em;
+    display: flex;
+}
+
+.nav-formacao-programacao {
+    border-left: 1px solid #00c86f;
+}
+
+.nav-formacao-front {
+    border-left: 1px solid #6bd1ff;
+}
+
+.nav-formacao-data {
+    border-left: 1px solid #9cd33b;
+}
+
+.nav-formacao-devops {
+    border-left: 1px solid #f16165;
+}
+
+.nav-formacao-ux {
+    border-left: 1px solid #dc6ebe;
+}
+
+.nav-formacao-mobile {
+    border-left: 1px solid #ffba05;
+}
+
+.nav-formacao-inovacao {
+    border-left: 1px solid #ff8c2a;
+}
+
+.secao__conteudo-formacoes {
+    background-color: #ffffff;
+    position: relative;
+    border: 1px solid #e3e8ed;
+    height: 100px;
+    width: calc(100% - 30px);
+    padding: 1rem 1rem 0.5rem 1rem; 
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;  
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.secao__conteudo-texto {
+    font-weight: 700;
+    font-size: 14px;
+    color: #747c81;
+    padding: 0.5rem;
+}
+
+@media (max-width: 900px) {
+    .secao__cursos-titulo {
+        text-align: center;
+    }
+
+    .secao__formacoes-titulo {
+        display: none;
+    }
+
+    .secao__conteudo-escola--titulo {
+        width: 100%;
+    }
+
+    .secao__conteudo {
+        flex-direction: column;
+    }
+
+    .secao__container-img--title---link {
+        align-items: center;
+    }
+
+    .secao__container-titulo--link {
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .secao__container-navegacao--formacoes {
+        margin: 0;
+        width: 99.5%;
+    }
+
+    .secao__conteudo-formacoes {
+        flex-wrap: nowrap;
+        height: 100%;
+    }
+
+    .nav-formacao-programacao {
+        border-left: 2px solid #00c86f;
+        border-right: 1px solid #00c86f;
+    }
+    
+    .nav-formacao-front {
+        border-left: 2px solid #6bd1ff;
+        border-right: 1px solid #6bd1ff;
+    }
+    
+    .nav-formacao-data {
+        border-left: 2px solid #9cd33b;
+        border-right: 1px solid #9cd33b;
+    }
+    
+    .nav-formacao-devops {
+        border-left: 2px solid #f16165;
+        border-right: 1px solid #f16165;
+    }
+    
+    .nav-formacao-ux {
+        border-left: 2px solid #dc6ebe;
+        border-right: 1px solid #dc6ebe;
+    }
+    
+    .nav-formacao-mobile {
+        border-left: 2px solid #ffba05;
+        border-right: 1px solid #ffba05;
+    }
+    
+    .nav-formacao-inovacao {
+        border-left: 2px solid #ff8c2a;
+        border-right: 1px solid #ff8c2a;
+    }
+}
+
+@media (max-width: 600px) {
+    .secao__cursos-container {
+        width: 100%;
+    }
+
+    .secao__container-navegacao--formacoes {
+        display: none;
+    }
+
+    .secao__conteudo-titulos {
+        width: 60%;
+        margin: 0 auto;             
+    }
+    
+    .secao__cursos-link {
+        margin-top: 1em;
+        align-self: flex-start;
+    }
+}

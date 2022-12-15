@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura</title>
+    <link href ="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/secao.css">
+    <link rel="stylesheet" href="css/formacoes.css">
+    <link rel="stylesheet" href="css/escolas.css">
+    <link rel="stylesheet" href="css/cartoes.css">
+    <link rel="stylesheet" href="css/rodape.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+                <i class="material-icons menu__hamburguer">menu</i>
+            <a href="https://www.alura.com.br/">
+                <img src="img/logo-alura.svg" alt="Logo da Alura" class="cabecalho__logo">
+            </a>
+            <nav class="cabecalho__navegacao">
+                <div class="cabecalho__lista"> 
+                    <li class="cabecalho__item"><a href="https://cursos.alura.com.br/courses/mine" class="cabecalho__menu">Meu Aprendizado</a></li>
+                </div>
+                <div class="cabecalho__lista">
+                    <li class="cabecalho__item"><a href="https://cursos.alura.com.br/formacoes">Conteúdo</a></li>
+                </div>
+                <div class="cabecalho__lista">
+                    <li class="cabecalho__item"><a href="https://cursos.alura.com.br/forum/todos/1">Comunidade</a></li>
+                </div>
+                <div class="cabecalho__lista">
+                    <img src="img/bx-bell.svg" alt="imagem de notificacao" class="cabecalho__notificacao">
+                </div>
+                <div class="cabecalho__lista">
+                    <a href="https://cursos.alura.com.br/user/dsouza8098" class="cabecalho__link-perfil">
+                    <img src="img/avatar_d.webp" alt="avatar" class="cabecalho__imagem-perfil">
+                    <span class="cabecalho__perfil-texto">Diego</span>
+                    </a>
+                </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="secao__dashboard">
+        <a href="https://cursos.alura.com.br/dashboard" class="secao__dashboard-link"><h1 class="secao__dashboard-titulo">Dashboard</h1></a>
+    </section>
+
+    <section class="secao__cursos-container">
+        <div class="secao__cursos-titulos">
+            <h2 class="secao__cursos-titulo">Descubra novos cursos</h2>
+            <div class="secao__conteudo-titulos">
+                <div class="secao__conteudo-escola--titulo">
+                    <h3 class="secao__escolas-titulo secao__titulo">Escolas</h3>
+                </div>
+                <h3 class="secao__formacoes-titulo secao__titulo">Formações</h3>
+            </div>
+        </div>
+        <ul class="secao__container-navegacao">
+            <div class="secao__container-escolas">
+
+                <!----Programação---->
+
+                <li class="secao__conteudo">
+                    <section class="secao__conteudo-escolas secao__container-programação">
+                        <div class="secao__container-img--title---link">
+                            <img src="img/programação-loog.png" alt="Logo Programação"
+                            class="secao__conteudo-imagem">
+                        <div class="secao__container-titulo--link">
+                            <h4 class="secao__conteudo-titulo">Programação</h4>
+                            <a href="https://cursos.alura.com.br/category/programacao" class="secao__cursos-link">Ver todos os cursos</a>
+                        </div>
+                        </div>
+                    </section>
+                    <nav class="secao__container-navegacao--formacoes nav-formacao-programacao">
+                        <div class="secao__conteudo-formacoes secao__conteudo-programacao">
+                            <p class="secao__conteudo-texto">Formação Jogos com Unity</p>
+                            <p class="secao__conteudo-texto">Formação Certificação Java</p>
+                            <p class="secao__conteudo-texto">Formação Raspberry Pi</p>
+                            <p class="secao__conteudo-texto">Formação Internet das Coisas</p>
+                            <p class="secao__conteudo-texto">Formação VB.NET</p>
+                            <p class="secao__conteudo-texto">Formação Microcontroladores e Eletrônica</p>
+                        </div>
+                    </nav>    
+                </li>
+
+                <!----Front-End--->
+
+                <li class="secao__conteudo">
+                    <section class="secao__conteudo-escolas secao__container-front">
+                        <div class="secao__container-img--title---link">
+                            <img src="img/frontend-logo.png" alt="logo Front-end" class="secao__conteudo-imagem">
+                        <div class="secao__container-titulo--link">
+                            <h4 class="secao__conteudo-titulo">Front-end</h4>
+                            <a href="https://cursos.alura.com.br/category/front-end" class="secao__cursos-link">Ver todos os cursos</a>
+                        </div>
+                        </div>
+                    </section>
+                    <nav class="secao__container-navegacao--formacoes nav-formacao-front">
+                        <div class="secao__conteudo-formacoes secao__conteudo-front">
+                            <p class="secao__conteudo-texto">Formação Acessibilidade Web</p>
+                            <p class="secao__conteudo-texto">Formação Wordpress</p>
+                            <p class="secao__conteudo-texto">Formação Front-end</p>
+                            <p class="secao__conteudo-texto">Formação Angular</p>
+                            <p class="secao__conteudo-texto">Formação HTML e CSS</p>
+                            <p class="secao__conteudo-texto">Formação Vue.js 3</p>
+                        </div>
+                    </nav>    
+                </li>
+
+                <!----Data-Science--->
+
+                <li class="secao__conteudo">
+                    <section class="secao__conteudo-escolas secao__container-data">
+                        <div class="secao__container-img--title---link">
+                            <img src="img/datascience-logo.png" alt="logo data science" class="secao__conteudo-imagem">
+                        <div class="secao__container-titulo--link">
+                            <h4 class="secao__conteudo-titulo">Data Science</h4>
+                            <a href="https://cursos.alura.com.br/category/data-science" class="secao__cursos-link">Ver todos os cursos</a>
+                        </div>
+                        </div>
+                    </section>
+                    <nav class="secao__container-navegacao--formacoes nav-formacao-data">
+                        <div class="secao__conteudo-formacoes secao__conteudo-data">
+                             <p class="secao__conteudo-texto">Formação SQL com Microsoft</p>
+                             <p class="secao__conteudo-texto">Formação Formação BI e Data</p>
+                             <p class="secao__conteudo-texto">Formação SQL com MySQL Server</p>
+                             <p class="secao__conteudo-texto">Formação Python para Data</p>
+                             <p class="secao__conteudo-texto">Formação Datomic</p>
+                             <p class="secao__conteudo-texto">Formação SQL</p>
+                            </div>
+                        </nav>
+                </li>
+
+                <!----DevOps--->
+
+                <li class="secao__conteudo">
+                    <section class="secao__conteudo-escolas secao__container-devops">
+                        <div class="secao__container-img--title---link">
+                            <img src="img/devops-logo.png" alt="logo devops" class="secao__conteudo-imagem">
+                        <div class="secao__container-titulo--link">
+                            <h4 class="secao__conteudo-titulo">DevOps</h4>
+                            <a href="https://cursos.alura.com.br/category/devops" class="secao__cursos-link">Ver todos os cursos</a>
+                        </div>
+                        </div>
+                    </section>
+                    <nav class="secao__container-navegacao--formacoes nav-formacao-devops">
+                        <div class="secao__conteudo-formacoes secao__conteudo-devops">
+                            <p class="secao__conteudo-texto">Formação Certificação LPI Linux</p>
+                            <p class="secao__conteudo-texto">Formação Apache Kafka</p>
+                            <p class="secao__conteudo-texto">Formação OWASP</p>
+                            <p class="secao__conteudo-texto">Formação Certificação Docker DCA</p>
+                            <p class="secao__conteudo-texto">Formação AWS Certified Cloud Practitioner</p>
+                            <p class="secao__conteudo-texto">Formação AWS Cxertified Solutions Architect </p>
+                        </div>
+                    </nav>
+                </li>
+
+                <!----UX & Design--->
+
+                <li class="secao__conteudo">
+                    <section class="secao__conteudo-escolas secao__container-ux">
+                        <div class="secao__container-img--title---link">
+                            <img src="img/ux-logo.png" alt="logo UX e Design" class="secao__conteudo-imagem">
+                        <div class="secao__container-titulo--link">
+                            <h4 class="secao__conteudo-titulo">UX & Design</h4>
+                            <a href="https://cursos.alura.com.br/category/design-ux" class="secao__cursos-link">Ver todos os cursos</a>
+                        </div>
+                        </div>
+                    </section>
+                    <nav class="secao__container-navegacao--formacoes nav-formacao-ux">
+                        <div class="secao__conteudo-formacoes secao__conteudo-ux">
+                            <p class="secao__conteudo-texto">Formação Motion Design</p>
+                            <p class="secao__conteudo-texto">Formação Produção Gráfica</p>
+                            <p class="secao__conteudo-texto">Formação Pintura Digital</p>
+                            <p class="secao__conteudo-texto">Formação Ilustração Publicitária</p>
+                            <p class="secao__conteudo-texto">Formação Produção de vídeo no Premiere</p>
+                            <p class="secao__conteudo-texto">Formação UX Research</p>
+                        </div>
+                    </nav>    
+                </li>
+
+                <!----Mobile--->
+
+               <li class="secao__conteudo">
+                <section class="secao__conteudo-escolas secao__container-mobile">
+                    <div class="secao__container-img--title---link">
+                        <img src="img/mobile-logo.png" alt="Logo Mobile" class="secao__conteudo-imagem">
+                    <div class="secao__container-titulo--link">
+                        <h4 class="secao__conteudo-titulo">Mobile </h4>
+                        <a href="https://cursos.alura.com.br/category/mobile" class="secao__cursos-link">Ver todos os cursos</a>
+                    </div>
+                    </div>
+                </section> 
+                <nav class="secao__container-navegacao--formacoes nav-formacao-mobile">
+                    <div class="secao__conteudo-formacoes secao__conteudo-mobile">
+                        <p class="secao__conteudo-texto">Formação Android</p>
+                        <p class="secao__conteudo-texto">Formação Testes automatizados</p>
+                        <p class="secao__conteudo-texto">Formação Arquitetura Android</p>
+                        <p class="secao__conteudo-texto">Formação Firebase com Android</p>
+                        <p class="secao__conteudo-texto">Formação iOS</p>
+                        <p class="secao__conteudo-texto">Formação Android com Kotlin</p>
+                    </div>
+                </nav>   
+            </li>
+            
+               <!----Inovação & Gestão--->
+               
+               <li class="secao__conteudo">
+                   <section class="secao__conteudo-escolas secao__container-inovacao">
+                    <div class="secao__container-img--title---link">                    
+                            <img src="img/inovação-logo.png" alt="Logo Inovação" class="secao__conteudo-imagem">
+                       <div class="secao__container-titulo--link">
+                            <h4 class="secao__conteudo-titulo">Inovação & Gestão</h4>
+                            <a href="https://cursos.alura.com.br/category/inovacao-gestao" class="secao__cursos-link">Ver todos os cursos</a>
+                       </div>
+                       </div>
+                    </section>
+                    <nav class="secao__container-navegacao--formacoes nav-formacao-inovacao">
+                        <div class="secao__conteudo-formacoes secao__conteudo-inovacao">
+                            <p class="secao__conteudo-texto">Formação Business Agility</p>
+                            <p class="secao__conteudo-texto">Formação Certificação da biblioteca</p>
+                            <p class="secao__conteudo-texto">Formação Certificação COBIT 5</p>
+                            <p class="secao__conteudo-texto">Formação Certificação PMP e CAPM do PMI</p>
+                            <p class="secao__conteudo-texto">Formação Minha primeira liderança</p>
+                            <p class="secao__conteudo-texto">Formação Gestão da biblioteca</p>
+                        </div>
+                    </nav>    
+                </li>
+            </div>
+
+            </div>
+        </ul>
+    </section>
+
+    <hr class="linha">  <!----Hipsters---->
+
+    <section class="secao__container-hipsters">
+        <div class="secao__container__geral">
+            <div class="secao__conteudo-img--titulo">
+                <img src="img/icone-headset.png" alt="icone fones" class="conteudo__hipsters-imagem">
+                <h2 class="conteudo__hipsters-titulo">Escute os últimos episódios do Hipsters</h2>
+            </div>
+            <p class="conteudo__hipsters-texto">O Hipsters Ponto Tech é o podcast onde o pessoal da Caelum e da Alura
+                entra em</br> discussões acaloradas sobre programação, design, ux, gadgets, startups e as últimas</br> modinhas em 
+                tecnologia. Ah! E sempre com convidados.</p>
+            <div class="container-cartoes">
+                <div class="secao__container-cartoes">
+                    <div class="secao__container-cartoes--texto">
+                        <p class="conteudo__cartoes-texto--hipsters">Hipsters Ponto Tech #332</p>
+                        <p>Histórias de Black Friday: Alura</p>
+                    </div>
+                    <div class="secao__container-cartoes--imagem">
+                        <img src="img/hipsters-332.png" alt="imagem hipsters" class="conteudo__imagem-cartoes">
+                    </div>
+                    <div class="secao__conteudo-cartoes--data">
+                        <small class="conteudo__cartoes-data">22/11/2022</small>
+                        <small class="conteudo__cartoes-texto">45 min.</small>
+                    </div>
+                </div>
+                <div class="secao__container-cartoes">
+                    <div class="secao__container-cartoes--texto">
+                        <p class="conteudo__cartoes-texto--hipsters">Hipsters Ponto Tech #331</p>
+                        <p>BolhaDev e Comunidade</p>
+                    </div>
+                    <div class="secao__container-cartoes--imagem">
+                        <img src="img/hipsters-331.png" alt="imagem hipsters" class="conteudo__imagem-cartoes">
+                    </div>
+                    <div class="secao__conteudo-cartoes--data">
+                        <small class="conteudo__cartoes-data">15/11/2022</small>
+                        <small class="conteudo__cartoes-texto">57 min.</small>
+                    </div>
+                </div>
+                <div class="secao__container-cartoes">
+                    <div class="secao__container-cartoes--texto">
+                        <p class="conteudo__cartoes-texto--hipsters">Hipsters Ponto Tech #330</p>
+                        <p>Otimização.florestas e plantio</p>
+                    </div>
+                    <div class="secao__container-cartoes--imagem">
+                        <img src="img/hipsters-330.png" alt="imagem hipsters" class="conteudo__imagem-cartoes">
+                    </div>
+                    <div class="secao__conteudo-cartoes--data">
+                        <small class="conteudo__cartoes-data">08/11/2022</small>
+                        <small class="conteudo__cartoes-texto">39 min.</small>
+                    </div>
+                </div>
+                <div class="secao__container-cartoes">
+                    <div class="secao__container-cartoes--texto">
+                        <p class="conteudo__cartoes-texto--hipsters">Hipsters Ponto Tech #329</p>
+                        <p>Planos de Saúde e Tecnologia</p>
+                    </div>
+                    <div class="secao__container-cartoes--imagem">
+                        <img src="img/hipsters-329.png" alt="imagem hipsters" class="conteudo__imagem-cartoes">
+                    </div>
+                    <div class="secao__conteudo-cartoes--data">
+                        <small class="conteudo__cartoes-data">01/11/2022</small>
+                        <small class="conteudo__cartoes-texto">48 min.</small>
+                    </div>
+                </div>
+                <div class="secao__container-cartoes">
+                    <div class="secao__container-cartoes--texto">
+                        <p class="conteudo__cartoes-texto--hipsters">Hipsters Ponto Tech #328</p>
+                        <p>Tecnologia na Mosaico.Buscapé e Zoom</p>
+                    </div>
+                    <div class="secao__container-cartoes--imagem">
+                        <img src="img/hipsters-328.png" alt="imagem hipsters" class="conteudo__imagem-cartoes">
+                    </div>
+                    <div class="secao__conteudo-cartoes--data">
+                        <small class="conteudo__cartoes-data">25/10/2022</small>
+                        <small class="conteudo__cartoes-texto">35 min.</small>
+                    </div>
+                </div>
+                <div class="secao__container-cartoes">
+                    <div class="secao__container-cartoes--texto">
+                        <p class="conteudo__cartoes-texto--hipsters">Hipsters Ponto Tech #327</p>
+                        <p>Engenharia e lihagem de dados</p>
+                    </div>
+                    <div class="secao__container-cartoes--imagem">
+                        <img src="img/hipsters-327.png" alt="imagem hipsters" class="conteudo__imagem-cartoes">
+                    </div>
+                    <div class="secao__conteudo-cartoes--data">
+                        <small class="conteudo__cartoes-data">18/10/2022</small>
+                        <small class="conteudo__cartoes-texto">39 min.</small>
+                    </div>
+                </div>
+                <div class="secao__container-cartoes">
+                    <div class="secao__container-cartoes--texto">
+                        <p class="conteudo__cartoes-texto--hipsters">Hipsters Ponto Tech #326</p>
+                        <p>Xadrez em cheque: dados e trapaças</p>
+                    </div>
+                    <div class="secao__container-cartoes--imagem">
+                        <img src="img/hipsters-326.png" alt="imagem hipsters" class="conteudo__imagem-cartoes">
+                    </div>
+                    <div class="secao__conteudo-cartoes--data">
+                        <small class="conteudo__cartoes-data">11/10/2022</small>
+                        <small class="conteudo__cartoes-texto">63 min.</small>
+                    </div>
+                </div>
+                <div class="secao__container-cartoes">
+                    <div class="secao__container-cartoes--texto">
+                        <p class="conteudo__cartoes-texto--hipsters">Hipsters Ponto Tech #325</p>
+                        <p>Cloud Microsoft Azure</p>
+                    </div>
+                    <div class="secao__container-cartoes--imagem">
+                        <img src="img/hipsters-325.png" alt="imagem hipsters" class="conteudo__imagem-cartoes">
+                    </div>
+                    <div class="secao__conteudo-cartoes--data">
+                        <small class="conteudo__cartoes-data">04/10/2022</small>
+                        <small class="conteudo__cartoes-texto">51 min.</small>
+                    </div>
+                </div>
+            </div>
+            <div class="secao__container-link">
+                <a href="https://cursos.alura.com.br/hipsterstech/episodios" class="secao__conteudo-link">Ver todos os  podcasts do hipsters</a>
+            </div>
+         </div>
+    </section>
+
+    <hr class="linha"> <!----Rodapé---->
+
+    <footer class="rodape">
+        <div class="rodape__espaco"></div>
+        <div class="linha__rodape">
+            <hr>
+        </div>
+        <div class="secao__container-rodape">
+            <div class="container__secundario-geral">
+            <img src="img/logo-alura.svg" alt="logo da alura" class="rodape__logo">
+            <ul class="secao__menu">
+                <li class="rodape__menu-item">
+                    <a href="https://www.alura.com.br/sobre" class="rodape__item">Sobre a alura</a>
+                </li>
+                <li class="rodape__menu-item">
+                    <a href="https://suporte.alura.com.br/pt-BR/support/home" class="rodape__item">Dúvidas frequentes</a>
+                </li>
+                <li class="rodape__menu-item">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScwKyaSvuFXK9SmMJoLPuYAS2qD_XAAnZPxMZij9qVeflbhBg/viewform" class="rodape__item">Sugira um curso</a>
+                </li>
+                <li class="rodape__menu-item">
+                    <a href="https://github.com/caelum/alura-funcionalidades" class="rodape__item">Sugira uma funcionalidade</a>
+                </li>
+                <li class="rodape__menu-item">
+                    <a href="https://www.alura.com.br/artigos" class="rodape__item">Blog da Alura</a>
+                </li>
+                <li class="rodape__menu-item">
+                    <a href="https://discord.com/invite/QeBdgAjXnn" class="rodape__item">Discord da Alura</a>
+                </li>
+            </ul>
+            <div class="container__rodape-redes">
+                <div class="conteudo__rodape-links">
+                    <h2 class="rodape__links-titulo">Acompanhe-nos</h2>
+                    <ul class="rodape__links-ul">
+                        <li class="rodape__links-item"><img src="img/bxl-youtube.svg" alt="Logo do Youtube" class="rodape__imagem"></li>
+                        <li class="rodape__links-item"><img src="img/bxl-facebook-circle.svg" alt="Logo do Facebook" class="rodape__imagem"></li>
+                        <li class="rodape__links-item"><img src="img/bxl-twitter.svg" alt="Logo do Twitter" class="rodape__imagem"></li>
+                        <li class="rodape__links-item"><img src="img/bx-headphone.svg" alt="Logo Headphone" class="rodape__imagem"></li>
+                        <li class="rodape__links-item"><img src="img/bxl-instagram-alt.svg" alt="Logo do Instagram" class="rodape__imagem"></li>
+                    </ul>
+                </div>
+                <div class="conteudo__rodape-links">
+                    <h2 class="rodape__links-titulo">Apps</h2>
+                    <ul class="rodape__links-ul">
+                        <li class="rodape__links-item"><img src="img/bxl-play-store.svg" alt="Logo da Playstore" class="rodape__imagem"></li>
+                        <li class="rodape__links-item"><img src="img/bxl-apple.svg" alt="Logo da Apple" class="rodape__imagem"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

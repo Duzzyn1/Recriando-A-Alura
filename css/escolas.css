@@ -1,0 +1,85 @@
+.secao__conteudo-escolas {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 250px;
+}
+
+.secao__container-img--title---link {
+    display: flex;
+    margin-left: 1rem;
+}
+
+
+.secao__conteudo-imagem {
+    height: 45px;
+    border: 1px solid none;
+    border-radius: 125px;
+}
+
+.secao__container-titulo--link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 0.5rem;
+}
+
+.secao__conteudo-titulo {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.secao__cursos-link {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.secao__container-programação {
+    background-color: #00c86f;
+}
+
+.secao__container-front {
+    background-color: #6bd1ff;
+}
+
+.secao__container-data {
+    background-color: #9cd33b;
+}
+
+.secao__container-devops {
+    background-color: #f16165;
+}
+
+.secao__container-ux {
+    background-color: #dc6ebe;
+}
+
+.secao__container-mobile {
+    background-color: #ffba05;
+}
+
+.secao__container-inovacao {
+    background-color: #ff8c2a;
+}
+
+@media (max-width: 900px) {
+    .secao__conteudo-escolas {
+        width: 100%;
+        height: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .secao__conteudo-escolas {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .secao__conteudo-titulo {
+        font-size: 18px;
+    }
+
+}
